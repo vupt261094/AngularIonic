@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "772965944359",
+    "firebase_url": "https://iconfess-cbdbb.firebaseio.com",
+    "project_id": "iconfess-cbdbb",
+    "storage_bucket": "iconfess-cbdbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772965944359:android:d3bed8cc87a6fac3",
+        "android_client_info": {
+          "package_name": "com.initialproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772965944359-iqnumj8hq21vee3k2h2hqr2del9eo5ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-X1dv5qrdYaFWt_TQDIhUcewWhXk2QZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772965944359-iqnumj8hq21vee3k2h2hqr2del9eo5ks.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772965944359-5ldpk0oqv42pai98v8p3mb1ds3bviqqg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.msuk.sodakoq"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772965944359:android:764d2cb7da3280eb",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772965944359-iqnumj8hq21vee3k2h2hqr2del9eo5ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-X1dv5qrdYaFWt_TQDIhUcewWhXk2QZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772965944359-iqnumj8hq21vee3k2h2hqr2del9eo5ks.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772965944359-5ldpk0oqv42pai98v8p3mb1ds3bviqqg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.msuk.sodakoq"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

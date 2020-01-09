@@ -1,0 +1,24 @@
+{
+   "type": "mssql",
+   "host": "localhost",
+   "port": 65269,
+   "username": "sa",
+   "password": "Redplane1",
+   "database": "HelloTypeOrm",
+   "synchronize": false,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
