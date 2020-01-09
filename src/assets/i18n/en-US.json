@@ -1,0 +1,20 @@
+{
+  "TITLE_FOLLOW": "Follow",
+  "TITLE_COMMENT": "Comment",
+  "TITLE_USERNAME_EMAIL": "Username or email",
+  "TITLE_PASSWORD": "Password",
+  "TITLE_LOGIN": "Login",
+  "TITLE_FACEBOOK_LOGIN": "Login with Facebook",
+  "TITLE_GOOGLE_LOGIN": "Login with Google",
+  "TITLE_OR": "Or",
+  "TITLE_ABOUT": "About",
+  "TITLE_PHOTO_VIDEO": "Photo/video",
+  "TITLE_GUARDIAN": "Guardian",
+  "TITLE_ITEM_DONATE_LISTING": "Item Donate",
+  "TITLE_START_NOW": "Start now",
+  "TITLE_SHARE": "Share",
+  "TITLE_DONATE": "Donate",
+  "TITLE_QR_LOGIN": "Qr login",
+  "TITLE_USERNAME": "Username",
+  "TITLE_FINGERPRINT_LOGIN": "Fingerprint login"
+}
