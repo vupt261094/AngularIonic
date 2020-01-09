@@ -1,0 +1,55 @@
+<ion-content>
+  <ion-row *ngFor="let item of [1, 2]">
+    <ion-card>
+      <ion-item>
+        <ion-row>
+          <ion-col [size]="'auto'">
+            <ion-avatar>
+              <img src="https://phpbb3.pixelgoose.com/download/file.php?avatar=2_1365803036.png">
+            </ion-avatar>
+          </ion-col>
+          <ion-col>
+            <ion-row>
+              <!--<h2 (click)="clickChildProfile()">Marty McFly</h2>-->
+              <ion-card-title>Marty McFly</ion-card-title>
+            </ion-row>
+            <ion-row>
+              <ion-card-subtitle>November 5, 1955</ion-card-subtitle>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-card-content>
+        <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a
+          DeLorean?! Whoa. This is heavy.</p>
+      </ion-card-content>
+
+      <ion-button float-right>
+        <span>{{'TITLE_DONATE' | translate}}</span>
+      </ion-button>
+
+      <img src="https://www.acfteambuilding.co.uk/images/activity_days/shooting/sniper.jpg">
+      <ion-row>
+        <ion-col [size]="4">
+          <ion-button [expand]="'full'" [fill]="'clear'" [size]="'small'">
+            <ion-icon slot="start" name="md-person-add"></ion-icon>
+            <div>{{'TITLE_FOLLOW' | translate}}</div>
+          </ion-button>
+        </ion-col>
+        <ion-col [size]="4">
+          <ion-button [expand]="'full'" [fill]="'clear'" [size]="'small'">
+            <ion-icon slot="start" name="md-chatboxes"></ion-icon>
+            <div>{{'TITLE_COMMENT' | translate}}</div>
+          </ion-button>
+        </ion-col>
+        <ion-col [size]="4">
+          <ion-button [expand]="'full'" [fill]="'clear'" [size]="'small'">
+            <ion-icon slot="start" name="md-share-alt"></ion-icon>
+            <div>{{'TITLE_SHARE' | translate}}</div>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </ion-row>
+
+</ion-content>

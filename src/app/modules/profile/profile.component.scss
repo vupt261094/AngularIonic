@@ -1,0 +1,32 @@
+.profile-image-container {
+  position: relative;
+
+  img.cover-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-bottom: 64px;
+  }
+
+  div.profile-photo {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    border-radius: 4px;
+
+    img {
+      display: inline-block;
+    }
+  }
+
+  div.profile-name {
+    display: inline-block;
+  }
+
+  div.profile-username {
+    position: absolute;
+    bottom: 15px;
+    font-size: 32px;
+  }
+}

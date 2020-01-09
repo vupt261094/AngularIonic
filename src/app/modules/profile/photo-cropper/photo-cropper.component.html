@@ -1,0 +1,8 @@
+<image-cropper
+        [imageFileChanged]=""
+        [maintainAspectRatio]="true"
+        [aspectRatio]="4 / 3"
+        format="png"
+        (imageCropped)="ngOnImageCropped($event)"
+        (cropperReady)="ngOnImageCropperReady()">
+</image-cropper>
