@@ -1,0 +1,32 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col [size]="12">
+        <ion-item tappable>
+          <ion-icon name="search" color="primary" slot="left"></ion-icon>
+          <ion-input placeholder="Search"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row style="border-bottom: #D6D6D6 solid 0.5px" *ngFor="let mess of messages">
+      <ion-col col-2>
+        <ion-img src={{mess.src}} width="50" height="50" style="border-radius:50%;">
+        </ion-img>
+      </ion-col>
+      <ion-col col-1>
+        <ion-icon style="color: red" name="remove-circle"></ion-icon>
+      </ion-col>
+      <ion-col col-7>
+        <p style="margin: 0px; font-weight: bold;">
+          {{mess.name}}
+        </p>
+        <p>abc</p>
+      </ion-col>
+      <ion-col col-2>
+        <p style="margin: 0px; color: #D6D6D6">
+          {{mess.time}}
+        </p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

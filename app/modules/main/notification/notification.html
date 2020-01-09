@@ -1,0 +1,23 @@
+<ion-content>
+  <ion-grid>
+    <ion-row style="background-color: #E6E8F4" *ngFor="let noti of notification">
+      <ion-col [size]="3">
+        <ion-img [src]="noti.src" width="70" height="70">
+        </ion-img>
+      </ion-col>
+      <ion-col [size]="6">
+        <p style="margin: 0px"><span style="font-weight: bold;">
+          {{noti.name}}
+        </span><span style="margin: 0px">
+        {{noti.action}}
+    </span></p>
+        <p style="margin:0px">
+          <ion-icon name="ios-bookmark" padding></ion-icon>
+          <span style="color: #D6D6D6" ion-textclass="text text-md text-md-light">{{noti.time}} mins ago</span></p>
+      </ion-col>
+      <ion-col [size]="3">
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,38 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <button ion-button style="background-color: #E65717" small>
+          Apply Filter
+        </button>
+        <button ion-button style="background-color: #6F284F" small>
+          Reset Filter
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-label style="font-weight: bold">Order by:</ion-label>
+        <button ion-button style="background-color: #B64226" small>
+          Last Active
+        </button>
+        <button ion-button style="background-color: #ED541D" small>
+          Newest Member
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+
+      <ion-col col-4
+               *ngFor="let user of _users">
+        <ion-row>
+          <ion-card class="child-profile">
+            <ion-card-content>
+              <img [src]="user.photo"/>
+              <div class="profile-name">{{user.username}}</div>
+            </ion-card-content>
+          </ion-card>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
