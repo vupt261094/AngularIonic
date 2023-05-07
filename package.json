@@ -34,7 +34,7 @@
     "@ngrx/store": "^8.6.0",
     "@ngx-translate/core": "^11.0.1",
     "@ngx-translate/http-loader": "^4.0.0",
-    "cordova": "^7.1.0",
+    "cordova": "^11.1.0",
     "cordova-android": "^8.1.0",
     "cordova-browser": "^6.0.0",
     "cordova-plugin-androidx": "^1.0.2",
